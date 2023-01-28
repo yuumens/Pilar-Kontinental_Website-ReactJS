@@ -1,0 +1,22 @@
+.pilar-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 8rem;
+}
+.pilar-navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pilar-navbar-links-logo{
+    margin-right: 2rem;
+}
+
+.pilar-navbar-links-logo img{
+    width: 10px;
+    height: 2px;
+}
