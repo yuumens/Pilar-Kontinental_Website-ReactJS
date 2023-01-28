@@ -1,22 +1,51 @@
-.pilar-navbar{
+.pilar_navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 8rem;
+    padding: 2rem 9rem;
 }
-.pilar-navbar-links{
+
+.pilar_navbar-links{
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.pilar-navbar-links-logo{
+.pilar_navbar-links-logo{
     margin-right: 2rem;
 }
 
-.pilar-navbar-links-logo img{
-    width: 10px;
-    height: 2px;
+.pilar_navbar-links-logo img{
+    height: 90px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.pilar_navbar-links_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.pilar_navbar-links_container p{
+    font-family: 'Bahnschrift', sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.pilar_navbar-socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pilar_navbar-socialmedia img{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    margin: -10px;
 }
