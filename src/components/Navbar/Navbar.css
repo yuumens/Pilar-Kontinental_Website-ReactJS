@@ -37,6 +37,13 @@
     cursor: pointer;
 }
 
+.pilar_navbar-links_container a:hover{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: rgb(66, 63, 63);
+}
+
 .pilar_navbar-menu-container p{
     font-family: 'Bahnschrift', sans-serif;
     font-size: 16px;
@@ -54,6 +61,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.pilar_navbar-socialmedia a:hover{
+    background-color: rgb(66, 63, 63);
+    border-radius: 10px;
 }
 
 .pilar_navbar-socialmedia img,
