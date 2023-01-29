@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 9rem;
+    padding: 1rem 6rem;
 }
 
 .pilar_navbar-links{
@@ -19,7 +19,7 @@
 
 .pilar_navbar-links-logo img{
     height: 90px;
-    width: 55px;
+    width: 45px;
     cursor: pointer;
 }
 
@@ -31,10 +31,17 @@
 .pilar_navbar-links_container p{
     font-family: 'Bahnschrift', sans-serif;
     display: flex;
-    flex-direction: row;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 25px;
     margin: 0 1rem;
     cursor: pointer;
+}
+
+.pilar_navbar-menu-container p{
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 1rem 0;
 }
 
 .pilar_navbar-socialmedia{
@@ -43,9 +50,75 @@
     align-items: center;
 }
 
-.pilar_navbar-socialmedia img{
+.pilar_navbar-socialmedia a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pilar_navbar-socialmedia img,
+.pilar_navbar-menu_container_socialmedia img {
     height: 60px;
     width: 60px;
     cursor: pointer;
     margin: -10px;
 }
+
+.pilar_navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.pilar_navbar-menu svg{
+    cursor: pointer;
+}
+
+.pilar_navbar-menu-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: wheat;
+    padding: 2rem;
+    position: absolute;
+    top: 50px;
+    right: -10px;
+    margin-top: 1rem;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+/* .pilar_navbar-menu-container p{
+    font-family: 'Bahnschrift', sans-serif;
+    margin: 1rem 0;
+} */
+
+.pilar_navbar-menu_container_socialmedia{
+    display: inline-block;
+}
+
+@media screen and (max-width: 1050px) {
+    .pilar_navbar{
+        padding: 1rem 3rem;
+    }
+
+    .pilar_navbar-links_container{
+        display: none;
+    }
+    
+    .pilar_navbar-menu{
+        display: flex;
+    }
+
+    .pilar_navbar-socialmedia{
+        display: none;
+    }
+
+    .pilar_navbar-menu_container_socialmedia{
+        display: flex;
+    } 
+}
+

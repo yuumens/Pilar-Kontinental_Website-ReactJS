@@ -9,6 +9,7 @@ body{
   background-image: url(../src/assets/pilar-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 a{
