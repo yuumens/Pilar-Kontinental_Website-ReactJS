@@ -106,7 +106,7 @@
     flex-direction: column;
 
     text-align: start;
-    background: pink;
+    background: rgb(105, 105, 105);;
     padding: 2rem;
     position: absolute;
     top: 50px;
@@ -121,17 +121,8 @@
 }
 
 .pilar_navbar-menu-container a:hover{
-    color: brown;
+    color: rgb(66, 63, 63);
 }
-
-.pilar_navbar-menu_container_socialmedia a:hover{
-    color: brown;
-}
-
-/* .pilar_navbar-menu-container p{
-    font-family: 'Bahnschrift', sans-serif;
-    margin: 1rem 0;
-} */
 
 .pilar_navbar-menu_container_socialmedia{
     display: inline-block;

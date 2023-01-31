@@ -1,0 +1,35 @@
+
+.pilar_abouts-text{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: top;
+    font-size: 20px;
+    font-family: 'Bahnschrift', sans-serif;
+    display: flex;
+    color: white;
+}
+
+.pilar_about-filosofi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.pilar_about-filosofi img{
+    height: 750px;
+    width: 800px;
+    /* margin-left: 25%; */
+}
+
+.pilar_about-filosofi h1{
+    font-size: 14px;
+    font-family: 'Bahnschrift', sans-serif;
+    width: 45vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: top;
+    color: white;
+
+}
