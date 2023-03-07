@@ -3,8 +3,7 @@ import { IoLogoInstagram, IoLogoTwitter, IoLogoYoutube, IoLogoFacebook } from "r
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import pilarlogo from '../../assets/pilar0111_1.svg';
 import './Navbar.css';
-import { BrowserRouter as Router, Route, Link, Switch, BrowserRouter }
-                  from 'react-router-dom';
+
 
 const Navbar = () => {
   const [toggleMenu, setTogglemenu] = useState(false);

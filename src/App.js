@@ -8,7 +8,7 @@ import Home from './components/Home/Home'
 import About from '../src/components/About/About'
 import Navbar from '../src/components/Navbar/Navbar'
 
-import { BrowserRouter as Router, Route, Link, Switch, BrowserRouter, Routes }
+import { BrowserRouter as Router, Route, Routes }
                   from 'react-router-dom';
 
 const App = () => {

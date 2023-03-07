@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+body{
+  background: #040C18;
+}
+
 a{
   color: var(--color-text);
   text-decoration: none;
@@ -25,16 +29,16 @@ a{
 } */
 
 
-.section_padding{
+.section__padding{
   padding: 4rem 6rem;
 }
 
-.section_margin{
+.section__margin{
   padding: 4rem 6rem;
 }
 
 @media screen and (max-width: 700px) {
-  .section_padding{
+  .section__padding{
     padding: 4rem;
   }
 

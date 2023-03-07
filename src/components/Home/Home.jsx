@@ -5,7 +5,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className="pilar_bg">
+    <div className="pilar_home">
         <div className='mains'>
             <img src={pilarhome} className="mains"/>
         </div>
